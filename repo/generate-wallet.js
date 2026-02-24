@@ -1,0 +1,11 @@
+const ethers = require('ethers');
+const wallet = ethers.Wallet.createRandom();
+console.log('======================================');
+console.log('FARCASTER WALLET GENERATED');
+console.log('======================================');
+console.log('Address: ' + wallet.address);
+console.log('Private Key: ' + wallet.privateKey);
+console.log('======================================');
+console.log('IMPORTANT: Save your private key securely!');
+console.log('Anyone with this key can control your wallet and Farcaster account.');
+console.log('======================================');
