@@ -29,3 +29,12 @@ PRIVATE_KEY=0x... SIGNER_PRIVATE_KEY=... FID=123 NEYNAR_API_KEY=... node src/pos
 # channel post
 PRIVATE_KEY=0x... SIGNER_PRIVATE_KEY=... FID=123 CHANNEL_URL="https://farcaster.xyz/~/channel/openclaw" node src/post-cast.js "hello channel"
 ```
+
+
+## Farcaster change history & credits
+
+See [CREDITS.md](./CREDITS.md) for a full, credited list of upstream and local Farcaster changes, including:
+
+- PR #2 fixes for replies/mentions/deletion and parent threading
+- Upstream contributor credits (\`rishavmukherji\`, \`clawlinker\`, \`artlu99\`, and Claude Opus 4.5 co-authoring)
+- This fork's explicit \`CHANNEL_URL\` channel-post integration
