@@ -52,9 +52,15 @@ These are notable community-facing improvements from the upstream repository his
 ### Main contributors observed
 
 - **rish** (**alias intent:** `@rishavmukherji`) — principal upstream author/maintainer and most follow-up improvements.
-- **mark** (**alias intent:** resolved in GitHub metadata as `@clawlinker`; PR #2 author is that account) — implemented PR #2 thread/reply + mentions work with explicit error-hardening and docs.
+- **mark** (**alias intent:** resolved in GitHub metadata as `@clawlinker`; PR #2 author is that account) — implemented PR #2 thread/reply + mentions work.
 - **@artlu99** — proposed alternative credential storage approach for users avoiding persistent storage.
 - **Claude Opus 4.5** — listed as co-author on multiple upstream implementation and docs commits.
+
+### Additional review/community contributors on PR #2
+
+- **copilot-pull-request-reviewer[bot]** — posted PR overview review comment.
+- **Copilot** — left 2 issue-level inline review comments (on `src/post-cast.js` and `src/delete-cast.js`) recommending hex validation and explicit error handling for `parent.hash` / `targetHash`.
+- **markcarey** — posted issue comments in the PR thread indicating reproduction impact and production testing (`"My Lobster is running into this issue..."`, `"Testing in production..."`).
 
 ---
 
@@ -81,4 +87,4 @@ These are notable community-facing improvements from the upstream repository his
 
 ## Suggested acknowledgement line
 
-> This skill bundles and respects upstream improvements by the `farcaster-agent` contributors (especially @rishavmukherji / rish and @clawlinker / mark), with explicit channel-post integration by @Ael/Clawberto.
+> This skill bundles and respects upstream improvements by the `farcaster-agent` contributors (especially @rishavmukherji / rish and @clawlinker / mark), with additional review/community input from copilot-pull-request-reviewer[bot], Copilot, and @markcarey, plus explicit channel-post integration by @Ael/Clawberto.

@@ -47,4 +47,4 @@ PRIVATE_KEY=0x... SIGNER_PRIVATE_KEY=... FID=2771439 CHANNEL_URL="https://farcas
 
 If you want the full attributions and history of Farcaster-focused changes from these repos, see [CREDITS.md](./CREDITS.md).
 
-Key credited contributors: `rish` (`@rishavmukherji`), `mark` (`@clawlinker`), `@artlu99`, and @Ael/Clawberto.
+Key credited contributors: `rish` (`@rishavmukherji`), `mark` (`@clawlinker`), `@artlu99`, `Copilot`, `@markcarey`, and @Ael/Clawberto.
