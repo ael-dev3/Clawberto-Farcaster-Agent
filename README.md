@@ -36,5 +36,5 @@ PRIVATE_KEY=0x... SIGNER_PRIVATE_KEY=... FID=123 CHANNEL_URL="https://farcaster.
 See [CREDITS.md](./CREDITS.md) for a full, credited list of upstream and local Farcaster changes, including:
 
 - PR #2 fixes for replies/mentions/deletion and parent threading
-- Upstream contributor credits (\`rishavmukherji\`, \`clawlinker\`, \`artlu99\`, and Claude Opus 4.5 co-authoring)
+- Upstream contributor credits (`rish`/`@rishavmukherji`, `mark`/`@clawlinker`, `@artlu99`, and Claude Opus 4.5 co-authoring)
 - This fork's explicit \`CHANNEL_URL\` channel-post integration

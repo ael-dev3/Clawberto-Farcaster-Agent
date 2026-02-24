@@ -51,9 +51,9 @@ These are notable community-facing improvements from the upstream repository his
 
 ### Main contributors observed
 
-- **@rishavmukherji** — author of core architecture and most follow-up improvements.
+- **rish** (**alias intent:** `@rishavmukherji`) — principal upstream author/maintainer and most follow-up improvements.
+- **mark** (**alias intent:** resolved in GitHub metadata as `@clawlinker`; PR #2 author is that account) — implemented PR #2 thread/reply + mentions work with explicit error-hardening and docs.
 - **@artlu99** — proposed alternative credential storage approach for users avoiding persistent storage.
-- **@clawlinker** — PR #2 implementation (reply/mentions/deletion/docs improvements).
 - **Claude Opus 4.5** — listed as co-author on multiple upstream implementation and docs commits.
 
 ---
@@ -81,4 +81,4 @@ These are notable community-facing improvements from the upstream repository his
 
 ## Suggested acknowledgement line
 
-> This skill bundles and respects upstream improvements by the `farcaster-agent` contributors (especially @rishavmukherji and @clawlinker), with explicit channel-post integration by @Ael/Clawberto.
+> This skill bundles and respects upstream improvements by the `farcaster-agent` contributors (especially @rishavmukherji / rish and @clawlinker / mark), with explicit channel-post integration by @Ael/Clawberto.
